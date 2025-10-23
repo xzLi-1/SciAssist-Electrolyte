@@ -30,6 +30,7 @@ def main():
             "--server.port=8501",
             "--server.address=0.0.0.0"
         ])
+        print("\n🌐 应用已启动，请访问: http://localhost:8501")
     except KeyboardInterrupt:
         print("\n👋 应用已停止")
     except Exception as e:

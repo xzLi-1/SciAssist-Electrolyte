@@ -26,4 +26,4 @@ git clone https://github.com/xzLi-1/SciAssist-Electrolyte.git
 cd SciAssist-Electrolyte
 
 pip install -r requirements.txt
-streamlit run demo_electrolyte_expert.py
+streamlit run run_app.py

@@ -20,7 +20,7 @@ st.set_page_config(
 
 # 导入自定义模块
 from data_processing.electrolyte_pdf_processor import ElectrolytePDFProcessor
-from retrieval.pure_python_manager import PurePythonRetrievalManager
+from retrieval.retrieval_manager import PurePythonRetrievalManager
 from agents.analyst_manager import AnalystManager
 
 class ElectrolyteExpertApp:
